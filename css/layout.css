@@ -1,0 +1,27 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+.container{
+    display: grid;
+    margin: 2rem auto ;
+    width: 1000px; 
+}
+.main{
+    display: grid;
+    grid-template-columns: 680px 500px;
+    grid-gap: 0px 20px;
+}
+
+.main__content{
+display: grid;
+grid-gap: 20px;
+grid-template-rows: 230px 230px; 
+}
+
+.main__sidebar{
+    display:grid;
+    grid-gap: 15px;
+}
